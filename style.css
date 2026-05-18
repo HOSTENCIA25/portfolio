@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body
+{
+    background: mistyrose;
+    color: #A14B58;
+}
+nav{
+    background: #6C131F;
+    color: white;
+    padding:20px;
+    display: flex;
+    justify-content: space-between;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    
+}
+nav ul li{
+    margin-left: 20px;
+    color: white;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+}
+.hero{
+    text-align: center;
+    padding: 80px 20px;
+    background: mistyrose;
+}
+.hero h1{
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+.hero h3{
+    color: #A14B58;
+    margin-bottom: 15px;
+}
+.hero button{
+    padding: 20px 15px;
+    border: none;
+    background:#6C131F;
+    color: white;
+    cursor: pointer;
+    border-radius: 10px;
+    height: 5px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    font-size: 15px;
+    right: 60px;
+    margin-top: 40px;
+    margin-left: -70%;
+}
+section{
+    padding: 30px 20px;
+    max-width: 900px;
+    margin: auto;
+}
+h2{
+    margin-bottom: 20px;
+    text-align: center;
+}
+.skills-box{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+.skills-box span{
+    background: mistyrose;
+    color: #A14B58;
+    padding: 10px 15px;
+    border-radius: 20px;
+}
+.project-card{
+    background: mistyrose;
+    padding: 20px;
+    margin-bottom: 15px;
+    border-left: 5px solid #6C131F;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
